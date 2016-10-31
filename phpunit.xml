@@ -1,0 +1,11 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="SlimSkeleton">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+       <ini name="display_errors" value="On" />
+       <ini name="display_startup_errors" value="On" />
+   </php>
+</phpunit>
